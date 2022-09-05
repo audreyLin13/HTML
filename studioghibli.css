@@ -1,0 +1,108 @@
+#history {
+    color:#42b3ce;
+    font-size:40px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#navBar {
+    font-size:40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.paragraphFont {
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#films {
+    color:#42b3ce;
+    font-size:40px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+#extras {
+    color:#42b3ce;
+    font-size:40px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+#shootingLocations {
+    color:#42b3ce;
+    font-size:30px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+#foods {
+        color:#42b3ce;
+        font-size:30px; 
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #42b3ce;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* float and padding is just for aesthetics */
+#navBarLists li {
+    float: right;
+}
+
+#navBarLists a {
+    display: block;
+    padding: 15px;
+    background-color: #42b3ce;
+    }
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
+a:active {
+    color: white;
+    text-decoration: none;
+}
+#historyTable td {
+    text-align: center;
+    width: 25%
+}
+#filmsTable td {
+    padding-right: 10px;
+}
+
+#foodLinks a {
+    color: #42b3ce
+}
+
+#filmsTable td:nth-child(1) {
+    width: 29%
+}
+
+#filmsTable td:nth-child(2) {
+    width: 13%
+}
+
+#filmsTable td:nth-child(3) {
+    width: 34%
+}
+
+/* #filmsTable th, #filmsTable td {
+    border: 1px solid;
+  } */
+#locationsTable td {
+    text-align: center;
+    width: 25%
+}
+
+#locationText td {
+    text-align: center;
+}
+#foodsTable td {
+    text-align: center;
+    width: 20%
+}
+
