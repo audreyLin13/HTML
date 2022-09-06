@@ -75,11 +75,6 @@ a:active {
     padding-right: 10px;
 }
 
-#foodLinks a {
-    color: #42b3ce;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-}
-
 #filmsTable td:nth-child(1) {
     width: 29%
 }
@@ -89,7 +84,7 @@ a:active {
 }
 
 #filmsTable td:nth-child(3) {
-    width: 34%
+    width: 37%
 }
 #locationsTable td {
     text-align: center;
@@ -98,10 +93,14 @@ a:active {
 
 #locationText td {
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 #foodsTable td {
     text-align: center;
     width: 20%;
     font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#text {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
